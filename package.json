@@ -1,12 +1,7 @@
 {
   "name": "study-git",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "description": "Git 워크플로우 학습",
+  "keywords": ["Git", "Workflow"],
+  "author": "jihwoonpark <jihwoonpark@gmail.com>"
 }
