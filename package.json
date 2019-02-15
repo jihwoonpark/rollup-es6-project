@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Git 워크플로우 학습",
   "scripts": {
-    "bundle": "rollup -c"
+    "bundle": "rollup -c",
+    "build": "cross-env BUILD=on rollup -c"
   },
   "keywords": [
     "Git",
@@ -15,10 +16,13 @@
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.3.1",
     "babel-preset-es2015-rollup": "^3.0.0",
+    "cross-env": "^5.2.0",
     "rollup": "^1.1.2",
-    "rollup-plugin-babel": "^4.3.2"
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-uglify": "^6.0.2"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.2.5"
+    "@babel/polyfill": "^7.2.5",
+    "uglify-js": "^3.4.9"
   }
 }
